@@ -16,9 +16,10 @@ ReactDOM.render(<MyAmazingComponent />, document.querySelector("#my-react-exampl
 
 /* ClientArea is for use with Netlify/JAMStack demo
 new ClientArea()
+*/
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75)
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 60)
-*/
+
 
 let stickyHeader = new StickyHeader();
 let mobileMenu = new MobileMenu();
